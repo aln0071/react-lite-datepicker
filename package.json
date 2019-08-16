@@ -1,6 +1,6 @@
 {
   "name": "react-lite-datepicker",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A simple react date picker",
   "main": "build/index.js",
   "peerDependencies": {
@@ -8,15 +8,14 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "css-loader": "^3.2.0",
-    "npm": "^6.10.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.6"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",

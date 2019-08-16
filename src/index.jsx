@@ -216,7 +216,8 @@ class DatePicker extends React.Component {
     label: '',
     onChange: ()=>{},
     tooltip:'',
-    helperText: ''
+    helperText: '',
+    required: false
   }
 
   export default DatePicker;
