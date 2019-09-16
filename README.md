@@ -23,5 +23,14 @@ Basic implementation is as follows:
   label = "Choose a date"
   required = { true }
   onChange = { (date) => { console.log( date ) }
+  disabled = { false }
+  limit = "2025-04-22"
 />
 ```
+
+### Change log :
+- ***disabled*** flag added
+- ***limit*** added
+	- this value prevents user from selecting a date preceding the limit
+	- should be a string with format: ***yyyy-mm-dd***
+- bugs in code fixed

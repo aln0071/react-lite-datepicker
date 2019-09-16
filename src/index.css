@@ -4,6 +4,11 @@
     border-radius: 50px;
 }
 
+.date-disabled {
+    pointer-events: none;
+    color: gray;
+}
+
 .outer-div {
   position: relative;
 }
@@ -74,6 +79,15 @@
 .disabled {
     color: darkgray;
     pointer-events: none;
+}
+
+.disabledDatePicker {
+  pointer-events: none;
+  color: darkgray;
+}
+
+.disabledDatePicker input {
+  border-bottom-color: darkgray !important;
 }
 
 .enabled {
